@@ -11,9 +11,7 @@
 
 function sunset_load_admin_scripts( $hook ){
 
-	if( 'toplevel_page_alecadd_sunset' !=$hook ){
-		return;
-	}
+	if( 'toplevel_page_alecadd_sunset' !=$hook ){ return; }
 
 	wp_register_style( 'sunset_admin', get_template_directory_uri() . '/css/sunset.admin.css', array(), '1.0.0', 'all' );
 	wp_enqueue_style( 'sunset_admin' );
