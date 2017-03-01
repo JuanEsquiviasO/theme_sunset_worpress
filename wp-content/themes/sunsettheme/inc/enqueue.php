@@ -5,7 +5,7 @@
 @package sunsettheme
 
 	=============================
-						ADMIN ENQUEUE FUNCTIONS
+		ADMIN ENQUEUE FUNCTIONS
 	=============================
 */
 

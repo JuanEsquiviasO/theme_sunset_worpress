@@ -5,7 +5,7 @@
 	$firstName = esc_attr( get_option( 'first_name' ) );
 	$lastName = esc_attr( get_option( 'last_name' ) );
 	$fullname = $firstName . ' ' . $lastName;
-	$description = esc_attr(get_option( 'user_description' ) );
+	$description = esc_attr( get_option( 'user_description' ) );
 
 ?>
 
